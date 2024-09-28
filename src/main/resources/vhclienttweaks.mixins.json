@@ -1,0 +1,16 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.radimous.vhclienttweaks.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "refmap": "vhclienttweaks.refmap.json",
+  "mixins": [
+  ],
+  "client": [
+    "ResearchWidgetMixin",
+    "DemagnetizerTileEntityMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

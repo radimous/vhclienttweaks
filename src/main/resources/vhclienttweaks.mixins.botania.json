@@ -1,0 +1,16 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.radimous.vhclienttweaks.mixin.botania",
+  "compatibilityLevel": "JAVA_8",
+  "refmap": "vhclienttweaks.refmap.json",
+  "plugin": "com.radimous.vhclienttweaks.mixin.botania.BotaniaMixinPlugin",
+  "mixins": [
+  ],
+  "client": [
+    "RenderTilePoolMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
